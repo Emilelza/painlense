@@ -1,3 +1,5 @@
+import os
+
 from fastapi import Depends, FastAPI
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
@@ -14,9 +16,17 @@ app = FastAPI(
     description="Synthetic demo API for PainLens. Not for clinical use.",
 )
 
+allowed_origins = ["http://localhost:5173", "http://127.0.0.1:5173", "https://painlense.vercel.app"]
+cors_env = os.getenv("CORS_ORIGINS", "")
+if cors_env:
+    for item in cors_env.split(","):
+        cleaned = item.strip().rstrip("/")
+        if cleaned and cleaned not in allowed_origins:
+            allowed_origins.append(cleaned)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
