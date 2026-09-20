@@ -1,0 +1,106 @@
+{
+  "patient": {
+    "id": "CR-001",
+    "name": "Anu Thomas",
+    "age": 68,
+    "care_type": "palliative care"
+  },
+  "visits": [
+    {
+      "id": "V001",
+      "date": "2026-09-08",
+      "observer": "Visitor A",
+      "note": "Anu reported mild lower back pain after breakfast and was able to walk slowly to the chair with support. Mobility was reduced but steady.",
+      "raw": 3,
+      "corrected": 3.0
+    },
+    {
+      "id": "V002",
+      "date": "2026-09-09",
+      "observer": "Visitor B",
+      "note": "Anu had terrible lower back pain this morning and seemed very uncomfortable when standing. She needed frequent pauses even for short movement across the room.",
+      "raw": 8,
+      "corrected": 5.5
+    },
+    {
+      "id": "V003",
+      "date": "2026-09-10",
+      "observer": "Visitor C",
+      "note": "Anu said her back was a bit sore but manageable while moving from bed to chair. She walked a short distance with help and rested afterward.",
+      "raw": 3,
+      "corrected": 5.5
+    },
+    {
+      "id": "V004",
+      "date": "2026-09-11",
+      "observer": "Visitor A",
+      "note": "Anu described moderate lower back pain that increased when she tried to stand upright. She used the walker more slowly than earlier in the week.",
+      "raw": 6,
+      "corrected": 6.0
+    },
+    {
+      "id": "V005",
+      "date": "2026-09-12",
+      "observer": "Visitor B",
+      "note": "Anu complained of severe lower back pain and looked distressed when shifting position. Walking to the bathroom was terrible for her and required close support.",
+      "raw": 8,
+      "corrected": 5.5
+    },
+    {
+      "id": "V006",
+      "date": "2026-09-13",
+      "observer": "Visitor C",
+      "note": "Anu was a bit sore in the lower back but said it was manageable after resting. She moved carefully with assistance and preferred sitting upright.",
+      "raw": 3,
+      "corrected": 5.5
+    },
+    {
+      "id": "V007",
+      "date": "2026-09-14",
+      "observer": "Visitor A",
+      "note": "Anu reported stronger lower back pain during transfers from bed to chair. Her walking distance was shorter and she leaned on the walker throughout.",
+      "raw": 7,
+      "corrected": 7.0
+    },
+    {
+      "id": "V008",
+      "date": "2026-09-15",
+      "observer": "Visitor B",
+      "note": "Anu was in severe pain across the lower back and found standing terrible even with help. She avoided extra steps and asked to rest soon after moving.",
+      "raw": 9,
+      "corrected": 6.5
+    },
+    {
+      "id": "V009",
+      "date": "2026-09-16",
+      "observer": "Visitor C",
+      "note": "Anu said the back pain was manageable though she was a bit sore when turning in bed. She still needed support and moved more slowly than usual.",
+      "raw": 4,
+      "corrected": 6.5
+    },
+    {
+      "id": "V010",
+      "date": "2026-09-17",
+      "observer": "Visitor A",
+      "note": "Anu described significant lower back pain that limited standing and walking. She required assistance for transfers and rested after each movement.",
+      "raw": 8,
+      "corrected": 8.0
+    },
+    {
+      "id": "V011",
+      "date": "2026-09-18",
+      "observer": "Visitor B",
+      "note": "Anu had terrible, severe lower back pain today and appeared exhausted after minimal movement. Even shifting in the chair seemed very difficult.",
+      "raw": 9,
+      "corrected": 6.5
+    },
+    {
+      "id": "V012",
+      "date": "2026-09-19",
+      "observer": "Visitor C",
+      "note": "Anu said her lower back was a bit sore but manageable if she moved slowly. She needed steady help for transfers and chose to limit walking.",
+      "raw": 4,
+      "corrected": 6.5
+    }
+  ]
+}

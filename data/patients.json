@@ -1,0 +1,14 @@
+[
+  {
+    "id": "CR-001",
+    "password_hash": "d3ad9315b7be5dd53b31a273b3b3aba5defe700808305aa16a3062b76658a791"
+  },
+  {
+    "id": "CR-002",
+    "password_hash": "995fb3a3c0baac47898e588f94b4430b36b40ec2c236a72227462a79ec59b49c"
+  },
+  {
+    "id": "CR-003",
+    "password_hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+  }
+]

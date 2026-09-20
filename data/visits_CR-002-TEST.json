@@ -1,0 +1,18 @@
+{
+  "patient": {
+    "id": "CR-002-TEST",
+    "name": "Maria Garcia",
+    "age": 74,
+    "care_type": "palliative care"
+  },
+  "visits": [
+    {
+      "id": "V001",
+      "date": "2026-09-20",
+      "observer": "Visitor A",
+      "note": "Patient resting comfortably after medication.",
+      "raw": 3,
+      "corrected": 3.0
+    }
+  ]
+}

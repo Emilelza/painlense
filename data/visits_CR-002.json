@@ -1,0 +1,9 @@
+{
+  "patient": {
+    "id": "CR-002",
+    "name": "mary",
+    "age": 72,
+    "care_type": "palliative care"
+  },
+  "visits": []
+}
