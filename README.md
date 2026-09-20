@@ -1,7 +1,7 @@
-PainLens
+PainLense
 Overview
 
-PainLens is a web app for home palliative care teams. It reads visit notes written by different visitors, turns each note into a 0-10 pain score, corrects for each visitor's personal scoring style, and shows whether the patient's pain is really rising. If it is, the app alerts the nurse.
+PainLense is a web app for home palliative care teams. It reads visit notes written by different visitors, turns each note into a 0-10 pain score, corrects for each visitor's personal scoring style, and shows whether the patient's pain is really rising. If it is, the app alerts the nurse.
 
 Track: 01, Palliative Care & Patient Support
 
@@ -58,12 +58,13 @@ Demo sign-in: Patient ID CR-001, Password demo123
 The backend runs on a free tier and may take up to about 30 seconds to wake up on the first request.
 
 Demo / Pitch Video
-
-Add your demo or pitch video link here.
+https://drive.google.com/file/d/11ZbBuonRdE51ph6kRsULboAZWSXD4pST/view?usp=drivesdk
 
 Screenshots
 
-Add screenshots of the landing page, the dashboard with both charts, and the score-a-note result here.
+https://drive.google.com/file/d/10SUQTpuPO4_dWDUeEkLIKGwIdrpq_iUm/view?usp=drivesdk
+https://drive.google.com/file/d/1IOiKfT0IAga5iwW6meRUS3-A-2cbhah-/view?usp=drivesdk
+https://drive.google.com/file/d/1dIP768ryK0hQW_i8gEppzjugRXfVXLEa/view?usp=drivesdk
 
 How to Run Locally
 
